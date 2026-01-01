@@ -6,7 +6,7 @@ import os
 
 app = Flask(__name__)
 
-# Allow CORS for the React frontend
+# Allow CORS for the Reactfrontend
 CORS(app, origins=["http://localhost:3000"])
 
 def process(data):
